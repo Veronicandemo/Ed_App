@@ -1,0 +1,120 @@
+.content_bg {
+  position: relative;
+  align-items: center;
+  height: 60vh;
+  background-image: url('/Rectangle 12.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.content_bg::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(8, 8, 8, 0.9);
+}
+.container {
+  display: grid;
+  position: relative;
+  grid-template-columns: 1fr 1fr;
+  gap: 44px;
+  align-items: center;
+  padding: 0 15rem;
+}
+
+.heading {
+  color: #cbb26a;
+  font-weight: 700;
+  line-height: normal;
+  padding: 4rem;
+  position: relative;
+}
+.paragraph {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+}
+.icon {
+  color: #cbb26a;
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  margin-bottom: 0.5rem;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1040px) {
+  .container {
+    padding: 0 4rem;
+  }
+  .content_bg {
+    height: 50vh;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 912px) {
+  .container {
+    padding: 0 2rem;
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1300px) {
+  .container {
+    padding: 0 6rem;
+  }
+}
+@media only screen and (min-width: 200px) and (max-width: 540px) {
+  .heading {
+    font-size: 18px;
+    padding: 2rem;
+  }
+  .content_bg {
+    align-items: flex-start;
+    height: 100vh;
+  }
+  .container {
+    display: flex;
+    font-size: 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 0 1rem;
+    line-height: 32px;
+  }
+  .icon {
+    margin-bottom: 0.5rem;
+  }
+}
+@media only screen and (min-width: 412px) {
+  .heading {
+    font-size: 12px;
+    padding: 1rem 0 0 0;
+  }
+  .paragraph {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .heading {
+    font-size: 14px;
+    padding: 1rem 0 0 0;
+  }
+  .content_bg {
+    height: 100vh;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  .heading {
+    font-size: 14px;
+    padding: 1rem 0 0 0;
+    line-height: normal;
+  }
+  .container {
+    font-size: 12px;
+    gap: 20px;
+    line-height: 2.5;
+  }
+}

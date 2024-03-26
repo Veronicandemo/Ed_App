@@ -1,0 +1,73 @@
+const flag = '/kenya.png'
+const profile_photo = '/Rectangle 11.png'
+
+export const carouselItems = [
+  {
+    id: 1,
+    country_flag: flag,
+    name: 'Felix Adhiambo',
+    photo: profile_photo,
+    country: 'Kenya',
+    skill_set: [
+      'Photoshop',
+      'Content Creation',
+      'Video Editing',
+      'Google Analytics',
+    ],
+    level: 'Professional',
+    gender: 'Male',
+    profile: 'www.felixadhiambo/profile.com',
+    title: 'Digital Marketing Specialist',
+  },
+  {
+    id: 2,
+    country_flag: flag,
+    name: 'Felix Adhiambo',
+    photo: profile_photo,
+    country: 'Kenya',
+    skill_set: [
+      'Photoshop',
+      'Content Creation',
+      'Video Editing',
+      'Google Analytics',
+    ],
+    level: 'Professional',
+    gender: 'Male',
+    profile: 'www.felixadhiambo/profile.com',
+    title: 'Digital Marketing Specialist',
+  },
+  {
+    id: 3,
+    country_flag: flag,
+    name: 'Felix Adhiambo',
+    photo: profile_photo,
+    country: 'Kenya',
+    skill_set: [
+      'Photoshop',
+      'Content Creation',
+      'Video Editing',
+      'Google Analytics',
+    ],
+    level: 'Professional',
+    gender: 'Male',
+    profile: 'www.felixadhiambo/profile.com',
+    title: 'Digital Marketing Specialist',
+  },
+  {
+    id: 4,
+    country_flag: flag,
+    name: 'Felix Adhiambo',
+    photo: profile_photo,
+    country: 'Kenya',
+    skill_set: [
+      'Photoshop',
+      'Content Creation',
+      'Video Editing',
+      'Google Analytics',
+    ],
+    level: 'Professional',
+    gender: 'Male',
+    profile: 'www.felixadhiambo/profile.com',
+    title: 'Digital Marketing Specialist',
+  },
+]

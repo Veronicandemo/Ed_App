@@ -1,0 +1,50 @@
+@media only screen and (min-width: 1024px) and (max-width: 1040px) {
+  /* Styles for screens greater than or equal to 1024px, less than 1041px */
+  .navbar {
+    gap: 3rem;
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1300px) {
+  .navbar {
+    gap: 3rem;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 912px) {
+  .navbar {
+    gap: 1rem;
+    flex-direction: column;
+    font-size: 18px;
+    justify-content: start;
+  }
+}
+@media only screen and (min-width: 200px) and (max-width: 430px) {
+  .menu {
+    display: block;
+    left: 4rem;
+  }
+}
+@media only screen and (max-width: 280px) {
+  .menu {
+    left: 0;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .menu {
+    left: 4rem;
+  }
+}
+@media only screen and (min-width: 540px) {
+  .menu {
+    left: 14rem;
+  }
+}
+@media only screen and (min-width: 375px) and (max-width: 395px) {
+  .menu {
+    left: 7rem;
+  }
+}
+@media only screen and (min-width: 412px) and (max-width: 430px) {
+  .menu {
+    /* left: 7rem; */
+  }
+}

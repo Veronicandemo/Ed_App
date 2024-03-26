@@ -1,0 +1,13 @@
+@media only screen and (min-width: 1024px) and (max-width: 1040px) {
+  .map_outline {
+    position: relative;
+    bottom: 200px;
+    left: 4rem;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .map_outline {
+    position: relative;
+    display: none;
+  }
+}

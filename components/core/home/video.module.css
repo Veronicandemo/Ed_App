@@ -1,0 +1,71 @@
+.container {
+  width: 380px;
+  height: 460px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  border: 2px solid #cbb26a;
+  background: #080808;
+  color: #fff;
+  padding: 2rem;
+}
+.text {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  width: 255px;
+  height: 47px;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1040px) {
+  .container {
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    top: -7rem;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 912px) {
+  .container {
+    width: 800px;
+    height: 900px;
+    padding: 10px;
+    margin-left: 6rem;
+  }
+}
+@media only screen and (max-width: 280px) {
+  .container {
+    width: 260px;
+    height: 350px;
+    padding: 10px;
+  }
+}
+@media only screen and (min-width: 360px) and (max-width: 375px) {
+  .container {
+    width: 350px;
+    height: 450px;
+    padding: 10px;
+  }
+}
+
+@media only screen and (min-width: 412px) {
+  .container {
+    width: 380px;
+    height: 490px;
+    padding: 14px;
+  }
+}
+@media only screen and (min-width: 430px) {
+  .container {
+    width: 400px;
+    height: 500px;
+    padding: 10px;
+  }
+}
+@media only screen and (min-width: 540px) {
+  .container {
+    margin-top: 5px;
+    width: 500px;
+    height: 630px;
+    padding: 14px;
+  }
+}

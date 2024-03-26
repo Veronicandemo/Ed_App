@@ -1,0 +1,229 @@
+.africa_text {
+  position: relative;
+  color: #080808;
+  -webkit-text-stroke: 0.07vw #cbb26a;
+}
+.text1 {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 28px;
+
+  background: linear-gradient(
+    91deg,
+    #cbb26a 9.71%,
+    #fff 34.55%,
+    rgba(209, 188, 156, 0.51) 59.39%,
+    #a57c3e 84.22%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.text2 {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 28px;
+
+  background: linear-gradient(
+    91deg,
+    #cbb26a -5.85%,
+    #bea05b 15.94%,
+    #fff 30.74%,
+    #a57c3e 130.54%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.text3 {
+  font-size: 28px;
+  margin-top: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background: linear-gradient(91deg, #fff -0.54%, #a57c3e 64.56%, #cbb26a 103%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* @media only screen and (max-width: 1410px) and (max-width: 438px) {
+  .container {
+    height: 100vh;
+  }
+  .hero_text {
+    /* margin-top: 40rem; */
+/* }
+}  */
+@media only screen and (min-width: 1024px) and (max-width: 1040px) {
+  .btn_container {
+    bottom: 970px;
+  }
+  .header {
+    margin-bottom: 0;
+    font-size: 4rem;
+  }
+  .hero_text {
+    margin-top: -67rem;
+  }
+}
+
+@media only screen and (min-width: 912px) and (max-width: 1368px) {
+  .container {
+    height: 80vh;
+  }
+}
+@media only screen and (min-width: 1240px) {
+  .hero_text {
+    margin-top: -65rem;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .hero_text {
+    margin-top: -65rem;
+  }
+}
+/* @media only screen and (min-width: 1024px) and (max-width: 1366px) {
+  .container {
+    height: 50vh;
+  }
+  .btn_container {
+    bottom: 0;
+    top: 2rem;
+  }
+  .header {
+    margin-bottom: 0;
+    font-size: 4rem;
+  }
+  .hero_text {
+    margin-top: 1rem;
+  }
+} */
+@media only screen and (min-width: 1024px) and (max-width: 600px) {
+  .container {
+    height: 100vh;
+  }
+  .btn_container {
+    bottom: 0;
+    top: 2rem;
+  }
+  .header {
+    margin-bottom: 0;
+    font-size: 4rem;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 912px) {
+  .btn_container {
+    display: none;
+  }
+  .heroCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  .line {
+    display: none;
+  }
+}
+@media only screen and (min-width: 540px) {
+  .header {
+    font-size: 4rem;
+  }
+}
+@media only screen and (min-width: 540px) {
+  .header {
+    font-size: 4rem;
+  }
+  .menu_open {
+    /* Adjust Hero text position when the menu is open */
+    /* For example, move it down */
+    transform: translateY(230px);
+    /* Add any other styles to suit your design */
+  }
+  .menu_closed {
+    transform: none;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  .btn_container {
+    display: none;
+  }
+  .text1 {
+    font-size: 16px;
+    margin-top: 14px;
+  }
+  .text2 {
+    font-size: 16px;
+    margin-top: 14px;
+  }
+  .text3 {
+    font-size: 16px;
+    margin-top: 14px;
+  }
+  .header {
+    font-size: 28px;
+  }
+  .menu_open {
+    /* Adjust Hero text position when the menu is open */
+    /* For example, move it down */
+    transform: translateY(230px);
+    /* Add any other styles to suit your design */
+  }
+  .menu_closed {
+    transform: none;
+  }
+  .line {
+    margin-top: 0;
+  }
+}
+@media only screen and (min-width: 360px) and (max-width: 390px) {
+  .menu_open {
+    /* Adjust Hero text position when the menu is open */
+    /* For example, move it down */
+    transform: translateY(240px);
+    /* Add any other styles to suit your design */
+  }
+  .menu_closed {
+    transform: none;
+  }
+  .btn_container {
+    display: none;
+  }
+}
+@media only screen and (max-width: 415px) {
+  .menu_open {
+    /* Adjust Hero text position when the menu is open */
+    /* For example, move it down */
+    transform: translateY(240px);
+    /* Add any other styles to suit your design */
+  }
+  .menu_closed {
+    transform: none;
+  }
+  .btn_container {
+    display: none;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .container {
+    height: 97vh;
+  }
+  .menu_open {
+    /* Adjust Hero text position when the menu is open */
+    /* For example, move it down */
+    transform: translateY(240px);
+    /* Add any other styles to suit your design */
+  }
+  .menu_closed {
+    transform: none;
+  }
+  .btn_container {
+    display: none;
+  }
+}
