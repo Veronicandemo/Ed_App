@@ -53,7 +53,6 @@ const SignUp = () => {
         setIsLoading
       );
       if (resData.message === "signed up successful") {
-        // router.push("/dashboard");
       }
       console.log(resData);
     }
